@@ -11,11 +11,12 @@
 public class Coche {
 
     public static void main(String[] args) {
-        int puertas;
-        puertas = incr(4, 1);
+        // int puertas;
+        // puertas = incr(4, 1);
         
-        System.out.println(puertas); 
+        // System.out.println(puertas); 
         miCoche auto = new miCoche();
+        auto.sumPuerta();
         auto.sumPuerta();
         System.out.println(auto.puerta);
     }
@@ -24,6 +25,7 @@ public static int incr(int x, int y) {
         return x + y;
     }
 }
+
     class miCoche{
         public int puerta = 1;
     
